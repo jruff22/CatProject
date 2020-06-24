@@ -6,6 +6,7 @@ public class Cat {
 	private String gender;
 	private int age; 
 	private boolean isAMouser = true;
+	//testing push
 
 	public Cat(String name, String gender, int age) {
 		this.name = name;
