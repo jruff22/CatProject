@@ -20,7 +20,7 @@ class PersianTest {
 		assertEquals("Male", garfield.getGender());
 		assertEquals(7, garfield.getAge());
 		garfield.meow(5);
-		garfield.getWeight();
+		garfield.setWeight(5.1);
 		
 		
 		//fail("Not yet implemented");
