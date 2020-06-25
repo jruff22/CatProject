@@ -8,10 +8,11 @@ import org.junit.jupiter.api.Test;
 class CatTest {
 	
 	private static Cat felix;
+	private static Cat felix1;
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
-		felix = new Cat ("Felix", "Male", 6);
+		felix = new Cat ("Felix", "Male", 6, false, 8.8);
 	}
 
 	@Test
@@ -21,8 +22,20 @@ class CatTest {
 		assertEquals("Felix", felix.getName());
 		assertEquals("Male", felix.getGender());
 		assertEquals(6, felix.getAge());
-		assertNotEquals(7, felix.getAge());
-			
+		// assertNotEquals(7, felix.getAge());
+		assertEquals(8.8, felix.getWeight());
+		//assertNotEquals(10.8, felix.getWeight());
+		assertEquals(false, felix.isAMouser());
+		//assertNotEquals(true, felix.isAMouser());
+		felix.meow(7);
+	
+		
+		
+	
+		
+		
+	
+		
 		
 //		fail("Not yet implemented");
 	}
