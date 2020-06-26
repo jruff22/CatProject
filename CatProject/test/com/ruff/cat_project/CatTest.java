@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class CatTest {
 	
 	private static Cat felix;
-	private static Cat felix1;
+
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
